@@ -1,0 +1,64 @@
+body{
+    background-image: url('../img/background.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+Ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    background-color: rgba(240, 255, 255, 0.883);
+    opacity:0.4;
+}
+
+li {
+    float: left;
+    border-right: 1px solid grey;
+}
+
+li :last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    background-color: darkgrey;
+    text-emphasis-color: white;
+}
+
+.active{
+    background-color: lightpink;
+}
+
+/*.content {
+    float: ;
+    padding: 15px;
+    width: 60%;
+    height: 10%;
+    background-color: white;
+    border-radius: 30%;
+}*/
+
+/*<ul>
+  <li><a class="active" href="home_page.html">我的主页</a></li>
+  <li><a href="apply_for_team.html">我的组队</a></li>
+  <li><a href="team_result_check.html">信息查看</a></li>
+  <li><a href="personal_information.html">个人信息</a></li>
+  </ul>
+*/
